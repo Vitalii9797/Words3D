@@ -1,29 +1,59 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class HouseElements : MonoBehaviour
 {
+    public delegate void BuildingComplete();
+    public event BuildingComplete OnBuildingComplete;
+
+    public delegate void ElementAdded();
+    public event ElementAdded OnElementAdded;
+
     [SerializeField] private GameObject[] elements;
 
-    private int elementIndex;
-   
+    private int openedElements;
+  
     void Start()
     {
+        openedElements = PlayerPrefs.GetInt("openedElements");
+
         CloseElements();
+
+        CheckOpenedElements();
     }
 
-    public void OpenElement()
+    private void CheckOpenedElements()
     {
-        if(elements.Length > elementIndex)
+        for(int i = 0; i < elements.Length; i++)
         {
-            elements[elementIndex].SetActive(true);
+           if(elements[i].GetComponent<Element>().CheckIfElementOpened() == 1) elements[i].SetActive(true);
+        }
+    }
 
-            elementIndex++;
+    private bool AllOpened()
+    {
+        for (int i = 0; i < elements.Length; i++)
+        {
+            if(elements[i].GetComponent<Element>().CheckIfElementOpened() == 0)
+            {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+    public void OpenElement(int elementIndex)
+    {
+        elements[elementIndex].SetActive(true);
+        CheckOpenedElements();
+
+        if(AllOpened())
+        {
+            if (OnBuildingComplete != null) OnBuildingComplete();  
         }
         else
         {
-            Debug.Log("All elements opened");
+            if (OnElementAdded != null) OnElementAdded();
         }
     }
 
@@ -33,6 +63,5 @@ public class HouseElements : MonoBehaviour
         {
             elements[i].SetActive(false);
         }
-        elementIndex = 0;
     }
 }

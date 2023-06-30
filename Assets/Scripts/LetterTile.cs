@@ -5,11 +5,8 @@ public class LetterTile : MonoBehaviour
     [SerializeField] private Color m_Color;
     [SerializeField] private Animator tileAnimator;
     [SerializeField] private MeshRenderer m_Renderer;
-    
-    private void OnMouseDown()
-    {
-        tileAnimator.SetTrigger("reveal");
-    }
+
+    private const string revealTrigger = "reveal";
 
     public void SetColor(Color color)
     {
@@ -18,5 +15,10 @@ public class LetterTile : MonoBehaviour
     public void SetMaterial(Material mat)
     {
         m_Renderer.material = mat;
+    }
+
+    public void RevealLetter()
+    {
+        tileAnimator.SetTrigger(revealTrigger);
     }
 }
