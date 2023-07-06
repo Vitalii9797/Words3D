@@ -17,6 +17,7 @@ public class LevelManager : MonoBehaviour
     [SerializeField] private Animator cluewordsAnim;
     [SerializeField] private Animator downButtonsAnim;
     [SerializeField] private Animator letterDeskAnim;
+    [SerializeField] private SkipAds skipAds;
 
     private string moveAwayTrigger = "moveaway";
     void Start()
@@ -41,7 +42,7 @@ public class LevelManager : MonoBehaviour
 
     private void HomeButton()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        SceneManager.LoadScene(0);
     }
 
     private void LoadNextLevel()
@@ -64,10 +65,14 @@ public class LevelManager : MonoBehaviour
             yield return new WaitForEndOfFrame();
         }
 
-        if(fadeImage.color.a > 0.99f) SceneManager.LoadScene(nextLevel);
+        if (fadeImage.color.a > 0.99f)
+        {
+            SceneManager.LoadScene(nextLevel);
+            skipAds.ShowAd();
+        }
     }
 
-    private void OnDisable()
+        private void OnDisable()
     {
         homeButton.OnHomePressed -= HomeButton;
         BigHomeButton.OnHomePressed -= HomeButton;

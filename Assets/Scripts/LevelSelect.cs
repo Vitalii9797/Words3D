@@ -9,8 +9,6 @@ public class LevelSelect : MonoBehaviour
     [SerializeField] private HomeButton homeButton;
     [SerializeField] private HouseLevel houseLevel;
 
-    [SerializeField] private float startPositionLimit;
-    [SerializeField] private float endPositionLimit;
     private void Start()
     {
         

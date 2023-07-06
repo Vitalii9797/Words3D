@@ -10,12 +10,16 @@ public class RewardedAd : MonoBehaviour, IUnityAdsLoadListener, IUnityAdsShowLis
     [SerializeField] private GameObject adsPopUp;
     [SerializeField] private Animator noadsText;
     [SerializeField] HintButton hintButton;
+    [SerializeField] private NextButton cancelButton;
+    [SerializeField] private NextButton okButton;
 
     private readonly string adUnitID = "RewardedAd";
     private void Start()
     {
         Advertisement.Load(adUnitID, this);
         hintButton.OnHintButtonClicked += OpenAdsPopUp;
+        cancelButton.OnNextButtonClicked += CloseAdsPopUp;
+        okButton.OnNextButtonClicked += ShowAd;
     }
 
     private void OpenAdsPopUp()
@@ -70,6 +74,8 @@ public class RewardedAd : MonoBehaviour, IUnityAdsLoadListener, IUnityAdsShowLis
     private void OnDisable()
     {
         hintButton.OnHintButtonClicked -= OpenAdsPopUp;
+        cancelButton.OnNextButtonClicked -= CloseAdsPopUp;
+        okButton.OnNextButtonClicked -= ShowAd;
     }
 
 }

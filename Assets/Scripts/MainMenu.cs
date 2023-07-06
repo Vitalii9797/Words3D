@@ -5,20 +5,20 @@ using UnityEngine.Advertisements;
 
 public class MainMenu : MonoBehaviour, IUnityAdsInitializationListener
 {
-    [SerializeField] PlayButton playButton;
     [SerializeField] private string gameId;
-    [SerializeField] private string Level;
-
+    [SerializeField] private TestLevel testLevel1;
+    [SerializeField] private TestLevel testLevel2;
 
     void Start()
     {
         StartCoroutine(InitialiseAds());
-        playButton.OnPlayButtonPressed += StartGame;
+        testLevel1.OnLoadLevelPressed += StartGame;
+        testLevel2.OnLoadLevelPressed += StartGame;
     }
 
-    private void StartGame()
+    private void StartGame(string level)
     {
-        SceneManager.LoadScene(Level);
+        SceneManager.LoadScene(level);
     }
     public void OnInitializationComplete()
     {
