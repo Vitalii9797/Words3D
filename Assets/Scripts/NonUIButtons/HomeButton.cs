@@ -7,6 +7,7 @@ public class HomeButton : MonoBehaviour
 
     private void OnMouseDown()
     {
-        if(OnHomePressed != null) OnHomePressed();
+        GetComponent<Animator>().SetTrigger("push");
+        if (OnHomePressed != null) OnHomePressed();
     }
 }

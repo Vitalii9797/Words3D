@@ -9,6 +9,7 @@ public class CancelButton : MonoBehaviour
 
     private void OnMouseDown()
     {
+        GetComponent<Animator>().SetTrigger("push");
         if (OnCancel != null) OnCancel();
     }
 }

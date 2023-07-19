@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -51,14 +52,27 @@ public class ClueWordsDesk : MonoBehaviour
 
     public void RevealLetterByHint()
     {
-        if (clueWords.Count > 0)
+        StartCoroutine(Open3Letters(3));
+    }
+
+    private IEnumerator Open3Letters(int count)
+    {
+        while(count > 0)
         {
-            int random = Random.Range(0, clueWords.Count);
+            if (clueWords.Count > 0)
+            {
+                int random = Random.Range(0, clueWords.Count);
 
-            clueWords[random].RevealRandomLetter();
+                clueWords[random].RevealRandomLetter();
 
-            CleanSolvedByHint();
-            CheckIfWordsSolved();
+                CleanSolvedByHint();
+                CheckIfWordsSolved();
+
+            }
+
+            count--;
+
+            yield return new WaitForSeconds(0.3f);
         }
     }
 

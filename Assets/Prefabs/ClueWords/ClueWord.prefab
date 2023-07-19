@@ -51,6 +51,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clueWord: HEART
+  wordSolved: 0
   letterTiles:
   - {fileID: 6322439304155962270}
   - {fileID: 6322439305357613859}
@@ -490,6 +491,32 @@ PrefabInstance:
     - {fileID: 6299840433220963057, guid: 1ab6ca938a503bd4d9778df1a4df6582, type: 3}
     - {fileID: 6299840433220963059, guid: 1ab6ca938a503bd4d9778df1a4df6582, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ab6ca938a503bd4d9778df1a4df6582, type: 3}
+--- !u!1 &5892221189828996431 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6605917189710869307, guid: 1ab6ca938a503bd4d9778df1a4df6582, type: 3}
+  m_PrefabInstance: {fileID: 750325817763274356}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &6438844723347536899
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5892221189828996431}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c4dacf84d4b1de34d8ea406cb2a5ae1b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!4 &6525310521304496117 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5829696428194965889, guid: 1ab6ca938a503bd4d9778df1a4df6582, type: 3}

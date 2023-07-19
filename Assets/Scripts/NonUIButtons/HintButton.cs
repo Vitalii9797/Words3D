@@ -7,6 +7,7 @@ public class HintButton : MonoBehaviour
 
     private void OnMouseDown()
     {
+        GetComponent<Animator>().SetTrigger("push");
         if (OnHintButtonClicked != null) OnHintButtonClicked();
     }
 }

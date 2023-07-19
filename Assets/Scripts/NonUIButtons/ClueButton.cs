@@ -11,6 +11,7 @@ public class ClueButton : MonoBehaviour
 
     private void OnMouseDown()
     {
+        GetComponent<Animator>().SetTrigger("push");
         if(OnClueButtonPressed != null) OnClueButtonPressed(clueNumber);
     }
 }

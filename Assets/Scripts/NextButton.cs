@@ -8,5 +8,6 @@ public class NextButton : MonoBehaviour
     private void OnMouseDown()
     {
         if (OnNextButtonClicked != null) OnNextButtonClicked(); 
+        
     }
 }

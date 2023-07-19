@@ -9,6 +9,7 @@ public class ConfirmButton : MonoBehaviour
 
     private void OnMouseDown()
     {
+        GetComponent<Animator>().SetTrigger("push");
         if (OnWordConfirm != null) OnWordConfirm();
     }
 }

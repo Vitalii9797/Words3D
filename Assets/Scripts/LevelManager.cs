@@ -19,6 +19,8 @@ public class LevelManager : MonoBehaviour
     [SerializeField] private Animator letterDeskAnim;
     [SerializeField] private SkipAds skipAds;
 
+    [SerializeField] private string Level;
+
     private string moveAwayTrigger = "moveaway";
     void Start()
     {
@@ -37,12 +39,15 @@ public class LevelManager : MonoBehaviour
     private void LevelComplete()
     {
         ClearDisplay();
+        PlayerPrefs.SetString("CurrentLevel", nextLevel);
+        PlayerPrefs.SetInt(Level, 1);
         Debug.Log("Level complete!");
     }
 
     private void HomeButton()
     {
-        SceneManager.LoadScene(0);
+        fadeAnim.SetBool("fade", true);
+        StartCoroutine(LoadLevel("MainMenu"));
     }
 
     private void LoadNextLevel()
@@ -55,10 +60,11 @@ public class LevelManager : MonoBehaviour
         yield return new WaitForSeconds(2);
 
         fadeAnim.SetBool("fade", true);
-        StartCoroutine(LoadLevel());
+        PlayerPrefs.SetString("CurrentLevel", nextLevel);
+        StartCoroutine(LoadNextLevel(nextLevel));
     }
 
-    private IEnumerator LoadLevel()
+    private IEnumerator LoadNextLevel(string level)
     {
         while(fadeImage.color.a < 0.99f)
         {
@@ -67,12 +73,25 @@ public class LevelManager : MonoBehaviour
 
         if (fadeImage.color.a > 0.99f)
         {
-            SceneManager.LoadScene(nextLevel);
+            SceneManager.LoadScene(level);
             skipAds.ShowAd();
         }
     }
 
-        private void OnDisable()
+    private IEnumerator LoadLevel(string level)
+    {
+        while (fadeImage.color.a < 0.99f)
+        {
+            yield return new WaitForEndOfFrame();
+        }
+
+        if (fadeImage.color.a > 0.99f)
+        {
+            SceneManager.LoadScene(level);
+        }
+    }
+
+    private void OnDisable()
     {
         homeButton.OnHomePressed -= HomeButton;
         BigHomeButton.OnHomePressed -= HomeButton;
