@@ -301,7 +301,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &167040073
 Transform:
   m_ObjectHideFlags: 0
@@ -2879,7 +2879,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 58641842812350998, guid: 1d18f77041d323a4a82cd6613ace1ea6, type: 3}
       propertyPath: clueWord
-      value: FALSE
+      value: BASIC
       objectReference: {fileID: 0}
     - target: {fileID: 58641842812350999, guid: 1d18f77041d323a4a82cd6613ace1ea6, type: 3}
       propertyPath: m_Name
@@ -3105,7 +3105,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentWord: 
   currentWordText: {fileID: 1752014426}
-  mainWord: ZINFANDELS
+  mainWord: BACKFIELDS
   mainLetters:
   - {fileID: 314883818}
   - {fileID: 1744779270}
@@ -3198,7 +3198,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 58641842812350998, guid: 1d18f77041d323a4a82cd6613ace1ea6, type: 3}
       propertyPath: clueWord
-      value: SLADE
+      value: FLAKE
       objectReference: {fileID: 0}
     - target: {fileID: 58641842812350999, guid: 1d18f77041d323a4a82cd6613ace1ea6, type: 3}
       propertyPath: m_Name
@@ -3347,7 +3347,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 58641842812350998, guid: 1d18f77041d323a4a82cd6613ace1ea6, type: 3}
       propertyPath: clueWord
-      value: AISLE
+      value: ALIKE
       objectReference: {fileID: 0}
     - target: {fileID: 58641842812350999, guid: 1d18f77041d323a4a82cd6613ace1ea6, type: 3}
       propertyPath: m_Name
@@ -4754,7 +4754,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 58641842812350998, guid: 1d18f77041d323a4a82cd6613ace1ea6, type: 3}
       propertyPath: clueWord
-      value: FIELD
+      value: BLACK
       objectReference: {fileID: 0}
     - target: {fileID: 58641842812350999, guid: 1d18f77041d323a4a82cd6613ace1ea6, type: 3}
       propertyPath: m_Name
@@ -4799,11 +4799,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a09f3348c8379c4eac8c3188ce5bf72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clue1Texture: {fileID: 2800000, guid: c4ac61fbf01201742aba0136cc09d8c9, type: 3}
-  clue2Texture: {fileID: 2800000, guid: 469e3aa6e30b6e246a7cc05ccf82c1be, type: 3}
-  clue3Texture: {fileID: 2800000, guid: c318064d6d2c1504baaddff4f6357ba3, type: 3}
-  clue4Texture: {fileID: 2800000, guid: 1cbf7649af3a5de45a154eb969156fa7, type: 3}
-  clue5Texture: {fileID: 2800000, guid: 7d121f7b7d99c9541b69ad772df7c48c, type: 3}
+  clue1Texture: {fileID: 2800000, guid: 38f0f358934e0ac4eb48b17d13f2bdc4, type: 3}
+  clue2Texture: {fileID: 2800000, guid: 488757ed8361cfe49b6db96804f4eb40, type: 3}
+  clue3Texture: {fileID: 2800000, guid: 146ae054f1e907a4cabf1c5b5e721434, type: 3}
+  clue4Texture: {fileID: 2800000, guid: 6d5373255044fef4c9e38434f77c0154, type: 3}
+  clue5Texture: {fileID: 2800000, guid: 14ed691a65dc78a4a82bf2787cdbd7fb, type: 3}
   clueButton1: {fileID: 365002088}
   clueButton2: {fileID: 1687917478}
   clueButton3: {fileID: 1657100900}
@@ -5030,15 +5030,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5016453822677821974, guid: e442732589b5b094980f22f0fae94521, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 0.9
       objectReference: {fileID: 0}
     - target: {fileID: 5016453822677821974, guid: e442732589b5b094980f22f0fae94521, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 0.9
       objectReference: {fileID: 0}
     - target: {fileID: 5016453822677821974, guid: e442732589b5b094980f22f0fae94521, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 0.9
       objectReference: {fileID: 0}
     - target: {fileID: 5016453822677821974, guid: e442732589b5b094980f22f0fae94521, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5257,7 +5257,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 58641842812350998, guid: 1d18f77041d323a4a82cd6613ace1ea6, type: 3}
       propertyPath: clueWord
-      value: SLIDE
+      value: SLICE
       objectReference: {fileID: 0}
     - target: {fileID: 58641842812350999, guid: 1d18f77041d323a4a82cd6613ace1ea6, type: 3}
       propertyPath: m_Name

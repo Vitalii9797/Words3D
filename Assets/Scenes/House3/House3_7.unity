@@ -5409,14 +5409,14 @@ MonoBehaviour:
   BigHomeButton: {fileID: 166532343}
   levelCompleteText: {fileID: 270487322}
   partOfLevel: 6
-  nextLevel: House3_1
+  nextLevel: Cafe_1
   fadeImage: {fileID: 1017901026}
   fadeAnim: {fileID: 1017901025}
   cluewordsAnim: {fileID: 1029613771}
   downButtonsAnim: {fileID: 931988574}
   letterDeskAnim: {fileID: 1312613285}
   skipAds: {fileID: 305467635}
-  Level: House4
+  Level: Cafe
 --- !u!4 &2099631556
 Transform:
   m_ObjectHideFlags: 0

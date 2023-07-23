@@ -11508,16 +11508,16 @@ struct U3CLoadNextLevelU3Ed__21_tFEE5ECF1BB0D75F9AC0D1A764859F3C33072E1F8  : pub
 	String_t* ___level_3;
 };
 
-// Levels/<LoadLevel>d__24
-struct U3CLoadLevelU3Ed__24_t98D0FFB405D1025EE6F8CE45E0B35A08B70BC292  : public RuntimeObject
+// Levels/<LoadLevel>d__26
+struct U3CLoadLevelU3Ed__26_t09B8AB603A006FBF6F3FDEA2442E2E69D27F0566  : public RuntimeObject
 {
-	// System.Int32 Levels/<LoadLevel>d__24::<>1__state
+	// System.Int32 Levels/<LoadLevel>d__26::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Object Levels/<LoadLevel>d__24::<>2__current
+	// System.Object Levels/<LoadLevel>d__26::<>2__current
 	RuntimeObject* ___U3CU3E2__current_1;
-	// Levels Levels/<LoadLevel>d__24::<>4__this
+	// Levels Levels/<LoadLevel>d__26::<>4__this
 	Levels_t03F4F6AB75FBE170D0A96E193BD66E2C4254BD39* ___U3CU3E4__this_2;
-	// System.String Levels/<LoadLevel>d__24::level
+	// System.String Levels/<LoadLevel>d__26::level
 	String_t* ___level_3;
 };
 
@@ -42417,10 +42417,14 @@ struct Levels_t03F4F6AB75FBE170D0A96E193BD66E2C4254BD39  : public MonoBehaviour_
 	Level_t1CED3B73CCB94716BF67A03B39D9DE9A991FD5A1* ___level2_13;
 	// Level Levels::level3
 	Level_t1CED3B73CCB94716BF67A03B39D9DE9A991FD5A1* ___level3_14;
+	// Level Levels::level4
+	Level_t1CED3B73CCB94716BF67A03B39D9DE9A991FD5A1* ___level4_15;
+	// Level Levels::level5
+	Level_t1CED3B73CCB94716BF67A03B39D9DE9A991FD5A1* ___level5_16;
 	// System.String Levels::currentLevel
-	String_t* ___currentLevel_15;
+	String_t* ___currentLevel_17;
 	// System.String Levels::currentLevelName
-	String_t* ___currentLevelName_16;
+	String_t* ___currentLevelName_18;
 };
 
 // UnityEngine.UIElements.ListView
@@ -50575,9 +50579,9 @@ struct U3CU3Ec_tA740A8D6DF3EABD2FC61E867744D9F8E4E8CCC94_StaticFields
 
 // LevelManager/<LoadNextLevel>d__21
 
-// Levels/<LoadLevel>d__24
+// Levels/<LoadLevel>d__26
 
-// Levels/<LoadLevel>d__24
+// Levels/<LoadLevel>d__26
 
 // UnityEngine.Experimental.GlobalIllumination.Lightmapping/<>c
 struct U3CU3Ec_t480832E6E9C0D190B837CC90FB7A34286511D2E4_StaticFields
@@ -68045,7 +68049,7 @@ const Il2CppTypeDefinitionSizes g_typeDefinitionSize3239 = { sizeof(U3CDeactivat
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3240;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize3240 = { sizeof(Level_t1CED3B73CCB94716BF67A03B39D9DE9A991FD5A1), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3241;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize3241 = { sizeof(U3CLoadLevelU3Ed__24_t98D0FFB405D1025EE6F8CE45E0B35A08B70BC292), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize3241 = { sizeof(U3CLoadLevelU3Ed__26_t09B8AB603A006FBF6F3FDEA2442E2E69D27F0566), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3242;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize3242 = { sizeof(Levels_t03F4F6AB75FBE170D0A96E193BD66E2C4254BD39), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3243;

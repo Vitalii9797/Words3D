@@ -25,7 +25,7 @@ public class MainMenu : MonoBehaviour, IUnityAdsInitializationListener
     }
     private void Start()
     {
-        StartCoroutine(InitialiseAds());
+      //  StartCoroutine(InitialiseAds());
         playButton.OnPlayButtonPressed += StartGame;
         PlayerPrefs.SetInt("House1", 1);
 
@@ -91,6 +91,6 @@ public class MainMenu : MonoBehaviour, IUnityAdsInitializationListener
 
     public void TestLevel()
     {
-        SceneManager.LoadScene("Cafe_1");
+        SceneManager.LoadScene("Motel_1");
     }
 }

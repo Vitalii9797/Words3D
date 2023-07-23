@@ -22,6 +22,8 @@ public class Levels : MonoBehaviour
     [SerializeField] private Level level1;
     [SerializeField] private Level level2;
     [SerializeField] private Level level3;
+    [SerializeField] private Level level4;
+    [SerializeField] private Level level5;
 
     private string currentLevel;
     private string currentLevelName;
@@ -32,9 +34,13 @@ public class Levels : MonoBehaviour
         level1.OnLevelChange += ChangeLevel;
         level2.OnLevelChange += ChangeLevel;
         level3.OnLevelChange += ChangeLevel;
+        level4.OnLevelChange += ChangeLevel;
+        level5.OnLevelChange += ChangeLevel;
         level1.OnHouseDeactivated += ActivateNextHouse;
         level2.OnHouseDeactivated += ActivateNextHouse;
         level3.OnHouseDeactivated += ActivateNextHouse;
+        level4.OnHouseDeactivated += ActivateNextHouse;
+        level5.OnHouseDeactivated += ActivateNextHouse;
         leftButton.OnButtonPressed += LeftButton;
         rightButton.OnButtonPressed += RightButton;
         playButton.OnPlayButtonPressed += StartGame;
@@ -106,6 +112,18 @@ public class Levels : MonoBehaviour
                 leftButton.gameObject.SetActive(true);
                 break;
             case "House3":
+                rightButton.gameObject.SetActive(true);
+                leftButton.buttonPressed = false;
+                rightButton.buttonPressed = false;
+                leftButton.gameObject.SetActive(true);
+                break;
+            case "Cafe":
+                rightButton.gameObject.SetActive(true);
+                leftButton.buttonPressed = false;
+                rightButton.buttonPressed = false;
+                leftButton.gameObject.SetActive(true);
+                break;
+            case "Motel":
                 rightButton.gameObject.SetActive(false);
                 leftButton.buttonPressed = false;
                 rightButton.buttonPressed = false;
@@ -126,7 +144,13 @@ public class Levels : MonoBehaviour
                 case "House2":
                     level2.DeactivateToRight();
                     break;
-            }
+                case "House3":
+                    level3.DeactivateToRight();
+                break;
+                case "Cafe":
+                    level4.DeactivateToRight();
+                break;
+        }
         
     }
 
@@ -136,6 +160,12 @@ public class Levels : MonoBehaviour
 
             switch (currentLevelName)
             {
+                case "Motel":
+                    level5.DeactivateToLeft();
+                    break;
+                case "Cafe":
+                    level4.DeactivateToLeft();
+                    break;
                 case "House3":
                     level3.DeactivateToLeft();
                     break;
@@ -158,6 +188,12 @@ public class Levels : MonoBehaviour
                 break;
             case "House3":
                 level3.gameObject.SetActive(true);
+                break;
+            case "Cafe":
+                level4.gameObject.SetActive(true);
+                break;
+            case "Motel":
+                level5.gameObject.SetActive(true);
                 break;
         }
     }
@@ -192,5 +228,24 @@ public class Levels : MonoBehaviour
         {
             SceneManager.LoadScene(level);
         }
+    }
+
+    private void OnDisable()
+    {
+        level1.OnLevelChange -= ChangeLevel;
+        level2.OnLevelChange -= ChangeLevel;
+        level3.OnLevelChange -= ChangeLevel;
+        level4.OnLevelChange -= ChangeLevel;
+        level5.OnLevelChange -= ChangeLevel;
+        level1.OnHouseDeactivated -= ActivateNextHouse;
+        level2.OnHouseDeactivated -= ActivateNextHouse;
+        level3.OnHouseDeactivated -= ActivateNextHouse;
+        level4.OnHouseDeactivated -= ActivateNextHouse;
+        level5.OnHouseDeactivated -= ActivateNextHouse;
+        leftButton.OnButtonPressed -= LeftButton;
+        rightButton.OnButtonPressed -= RightButton;
+        playButton.OnPlayButtonPressed -= StartGame;
+        homeButton.OnHomePressed -= Home;
+        lockedPlayButton.OnPlayButtonPressed -= LockedButton;
     }
 }

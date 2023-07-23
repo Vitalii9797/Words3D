@@ -14,17 +14,22 @@ public class RewardedAd : MonoBehaviour, IUnityAdsLoadListener, IUnityAdsShowLis
     [SerializeField] private NextButton okButton;
 
     private readonly string adUnitID = "RewardedAd";
-    private void Start()
+
+    private void Awake()
     {
-        Advertisement.Load(adUnitID, this);
         hintButton.OnHintButtonClicked += OpenAdsPopUp;
         cancelButton.OnNextButtonClicked += CloseAdsPopUp;
         okButton.OnNextButtonClicked += ShowAd;
+    }
+    private void Start()
+    {
+        Advertisement.Load(adUnitID, this);
     }
 
     private void OpenAdsPopUp()
     {
         adsPopUp.SetActive(true);
+        Debug.Log(adsPopUp.activeSelf.ToString() + adsPopUp.gameObject.name);
     }
 
     public void CloseAdsPopUp()

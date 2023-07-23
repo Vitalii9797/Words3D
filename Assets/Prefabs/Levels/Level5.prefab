@@ -1,0 +1,444 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5016453822677821975
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5016453822677821974}
+  m_Layer: 0
+  m_Name: Level5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5016453822677821974
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5016453822677821975}
+  m_LocalRotation: {x: -0.17020944, y: 0, z: 0, w: 0.98540795}
+  m_LocalPosition: {x: 0, y: -1.5, z: 0}
+  m_LocalScale: {x: 0.9, y: 0.9, z: 0.9}
+  m_ConstrainProportionsScale: 1
+  m_Children:
+  - {fileID: 3068421544911051411}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -19.6, y: 0, z: 0}
+--- !u!1001 &3251458598058425720
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5016453822677821974}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 81fd3f6876518f64d88a3bc2401bc500, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 81fd3f6876518f64d88a3bc2401bc500, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 81fd3f6876518f64d88a3bc2401bc500, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 81fd3f6876518f64d88a3bc2401bc500, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 81fd3f6876518f64d88a3bc2401bc500, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 81fd3f6876518f64d88a3bc2401bc500, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 81fd3f6876518f64d88a3bc2401bc500, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 81fd3f6876518f64d88a3bc2401bc500, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 81fd3f6876518f64d88a3bc2401bc500, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 81fd3f6876518f64d88a3bc2401bc500, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 81fd3f6876518f64d88a3bc2401bc500, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7267937363360740710, guid: 81fd3f6876518f64d88a3bc2401bc500, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6856959124562764533, guid: 81fd3f6876518f64d88a3bc2401bc500, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4062758990611278442, guid: 81fd3f6876518f64d88a3bc2401bc500, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3341606305382354802, guid: 81fd3f6876518f64d88a3bc2401bc500, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2807710417722150656, guid: 81fd3f6876518f64d88a3bc2401bc500, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1068798776122508074, guid: 81fd3f6876518f64d88a3bc2401bc500, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 134639931392336102, guid: 81fd3f6876518f64d88a3bc2401bc500, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 81fd3f6876518f64d88a3bc2401bc500, type: 3}
+      propertyPath: m_Name
+      value: Motel
+      objectReference: {fileID: 0}
+    - target: {fileID: 1531486501702274277, guid: 81fd3f6876518f64d88a3bc2401bc500, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1751277027186650689, guid: 81fd3f6876518f64d88a3bc2401bc500, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4687429641990651110, guid: 81fd3f6876518f64d88a3bc2401bc500, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6258093679582683999, guid: 81fd3f6876518f64d88a3bc2401bc500, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7834776237582355603, guid: 81fd3f6876518f64d88a3bc2401bc500, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881944606611793838, guid: 81fd3f6876518f64d88a3bc2401bc500, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8701999505273184109, guid: 81fd3f6876518f64d88a3bc2401bc500, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81fd3f6876518f64d88a3bc2401bc500, type: 3}
+--- !u!1 &993237642960789619 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -6856959124562764533, guid: 81fd3f6876518f64d88a3bc2401bc500, type: 3}
+  m_PrefabInstance: {fileID: 3251458598058425720}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4450411371355336183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993237642960789619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f156851caecee1c4991a77560c55fd82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  elementKey: Motel_9
+  particle: {fileID: 0}
+--- !u!1 &2440644852080459817 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 81fd3f6876518f64d88a3bc2401bc500, type: 3}
+  m_PrefabInstance: {fileID: 3251458598058425720}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &8648982492968900587
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2440644852080459817}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 026d14ed43fe06543a8c9e4702d8e9ee, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!4 &3068421544911051411 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 81fd3f6876518f64d88a3bc2401bc500, type: 3}
+  m_PrefabInstance: {fileID: 3251458598058425720}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3225094188757441950 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 134639931392336102, guid: 81fd3f6876518f64d88a3bc2401bc500, type: 3}
+  m_PrefabInstance: {fileID: 3251458598058425720}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8003923505543962760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3225094188757441950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f156851caecee1c4991a77560c55fd82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  elementKey: Motel_8
+  particle: {fileID: 0}
+--- !u!1 &3842214191577060153 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1751277027186650689, guid: 81fd3f6876518f64d88a3bc2401bc500, type: 3}
+  m_PrefabInstance: {fileID: 3251458598058425720}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3468055675315363261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3842214191577060153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f156851caecee1c4991a77560c55fd82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  elementKey: Motel_7
+  particle: {fileID: 0}
+--- !u!1 &3908166971919792098 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -7267937363360740710, guid: 81fd3f6876518f64d88a3bc2401bc500, type: 3}
+  m_PrefabInstance: {fileID: 3251458598058425720}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2754976144303450936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3908166971919792098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f156851caecee1c4991a77560c55fd82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  elementKey: Motel_12
+  particle: {fileID: 0}
+--- !u!1 &4062086909699846557 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1531486501702274277, guid: 81fd3f6876518f64d88a3bc2401bc500, type: 3}
+  m_PrefabInstance: {fileID: 3251458598058425720}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2766915310568210724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4062086909699846557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f156851caecee1c4991a77560c55fd82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  elementKey: Motel_14
+  particle: {fileID: 0}
+--- !u!1 &4647093051071634134 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7881944606611793838, guid: 81fd3f6876518f64d88a3bc2401bc500, type: 3}
+  m_PrefabInstance: {fileID: 3251458598058425720}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7302980245989815123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4647093051071634134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f156851caecee1c4991a77560c55fd82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  elementKey: Motel_4
+  particle: {fileID: 0}
+--- !u!1 &4730247613342675435 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7834776237582355603, guid: 81fd3f6876518f64d88a3bc2401bc500, type: 3}
+  m_PrefabInstance: {fileID: 3251458598058425720}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3522759194453420417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4730247613342675435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f156851caecee1c4991a77560c55fd82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  elementKey: Motel_10
+  particle: {fileID: 0}
+--- !u!1 &6186879567085937173 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8701999505273184109, guid: 81fd3f6876518f64d88a3bc2401bc500, type: 3}
+  m_PrefabInstance: {fileID: 3251458598058425720}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5187594388286922691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6186879567085937173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f156851caecee1c4991a77560c55fd82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  elementKey: Motel_11
+  particle: {fileID: 0}
+--- !u!1 &6644319574696198574 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1068798776122508074, guid: 81fd3f6876518f64d88a3bc2401bc500, type: 3}
+  m_PrefabInstance: {fileID: 3251458598058425720}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &848875649746427276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6644319574696198574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f156851caecee1c4991a77560c55fd82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  elementKey: Motel_1
+  particle: {fileID: 0}
+--- !u!1 &7674606997550819566 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -4062758990611278442, guid: 81fd3f6876518f64d88a3bc2401bc500, type: 3}
+  m_PrefabInstance: {fileID: 3251458598058425720}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3281931285726599709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7674606997550819566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f156851caecee1c4991a77560c55fd82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  elementKey: Motel_6
+  particle: {fileID: 0}
+--- !u!1 &7787454048664568222 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4687429641990651110, guid: 81fd3f6876518f64d88a3bc2401bc500, type: 3}
+  m_PrefabInstance: {fileID: 3251458598058425720}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6780199795954196237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7787454048664568222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f156851caecee1c4991a77560c55fd82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  elementKey: Motel_2
+  particle: {fileID: 0}
+--- !u!1 &8365016423460277368 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -2807710417722150656, guid: 81fd3f6876518f64d88a3bc2401bc500, type: 3}
+  m_PrefabInstance: {fileID: 3251458598058425720}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3470208113041312740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8365016423460277368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f156851caecee1c4991a77560c55fd82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  elementKey: Motel_13
+  particle: {fileID: 0}
+--- !u!1 &8919017688920874535 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6258093679582683999, guid: 81fd3f6876518f64d88a3bc2401bc500, type: 3}
+  m_PrefabInstance: {fileID: 3251458598058425720}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1338484335141044737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8919017688920874535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f156851caecee1c4991a77560c55fd82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  elementKey: Motel_3
+  particle: {fileID: 0}
+--- !u!1 &8989108556797300214 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -3341606305382354802, guid: 81fd3f6876518f64d88a3bc2401bc500, type: 3}
+  m_PrefabInstance: {fileID: 3251458598058425720}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7404196200208901581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8989108556797300214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f156851caecee1c4991a77560c55fd82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  elementKey: Motel_5
+  particle: {fileID: 0}
