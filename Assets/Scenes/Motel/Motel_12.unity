@@ -2894,7 +2894,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 58641842812350998, guid: 1d18f77041d323a4a82cd6613ace1ea6, type: 3}
       propertyPath: clueWord
-      value: EAGER
+      value: DAILY
       objectReference: {fileID: 0}
     - target: {fileID: 58641842812350999, guid: 1d18f77041d323a4a82cd6613ace1ea6, type: 3}
       propertyPath: m_Name
@@ -3120,7 +3120,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentWord: 
   currentWordText: {fileID: 1752014426}
-  mainWord: TANGERINES
+  mainWord: VALIDATORY
   mainLetters:
   - {fileID: 314883818}
   - {fileID: 1744779270}
@@ -3213,7 +3213,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 58641842812350998, guid: 1d18f77041d323a4a82cd6613ace1ea6, type: 3}
       propertyPath: clueWord
-      value: GREAT
+      value: ROYAL
       objectReference: {fileID: 0}
     - target: {fileID: 58641842812350999, guid: 1d18f77041d323a4a82cd6613ace1ea6, type: 3}
       propertyPath: m_Name
@@ -3351,7 +3351,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 58641842812350998, guid: 1d18f77041d323a4a82cd6613ace1ea6, type: 3}
       propertyPath: clueWord
-      value: AGREE
+      value: AVOID
       objectReference: {fileID: 0}
     - target: {fileID: 58641842812350999, guid: 1d18f77041d323a4a82cd6613ace1ea6, type: 3}
       propertyPath: m_Name
@@ -4758,7 +4758,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 58641842812350998, guid: 1d18f77041d323a4a82cd6613ace1ea6, type: 3}
       propertyPath: clueWord
-      value: ERASE
+      value: IVORY
       objectReference: {fileID: 0}
     - target: {fileID: 58641842812350999, guid: 1d18f77041d323a4a82cd6613ace1ea6, type: 3}
       propertyPath: m_Name
@@ -4803,11 +4803,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a09f3348c8379c4eac8c3188ce5bf72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clue1Texture: {fileID: 2800000, guid: ee5eebd4e1e5a954fab3bcd33b374d2c, type: 3}
-  clue2Texture: {fileID: 2800000, guid: b694ed7c79a2957489a932f09aa576cb, type: 3}
-  clue3Texture: {fileID: 2800000, guid: 870d24daa3ee603479097e0797b1fc06, type: 3}
-  clue4Texture: {fileID: 2800000, guid: 63e33c07623d3b24a9de279745d2fe75, type: 3}
-  clue5Texture: {fileID: 2800000, guid: e10d1765edf078341ba02d811d2d0b23, type: 3}
+  clue1Texture: {fileID: 2800000, guid: 0333dfb86ce22624e8b606a1c2e9d4c8, type: 3}
+  clue2Texture: {fileID: 2800000, guid: 3f185f5f1c3a781438a72f5c28b55538, type: 3}
+  clue3Texture: {fileID: 2800000, guid: 99a0af347ec962e40ac09c587e94475e, type: 3}
+  clue4Texture: {fileID: 2800000, guid: bbafea85536c16f43b80ef1fd99ed6ad, type: 3}
+  clue5Texture: {fileID: 2800000, guid: 8a43a22ff9e32094ba1f90780f31489a, type: 3}
   clueButton1: {fileID: 365002088}
   clueButton2: {fileID: 1687917478}
   clueButton3: {fileID: 1657100900}
@@ -5188,7 +5188,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 58641842812350998, guid: 1d18f77041d323a4a82cd6613ace1ea6, type: 3}
       propertyPath: clueWord
-      value: STING
+      value: TODAY
       objectReference: {fileID: 0}
     - target: {fileID: 58641842812350999, guid: 1d18f77041d323a4a82cd6613ace1ea6, type: 3}
       propertyPath: m_Name

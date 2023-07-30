@@ -25,7 +25,7 @@ public class MainMenu : MonoBehaviour, IUnityAdsInitializationListener
     }
     private void Start()
     {
-      //  StartCoroutine(InitialiseAds());
+        StartCoroutine(InitialiseAds());
         playButton.OnPlayButtonPressed += StartGame;
         PlayerPrefs.SetInt("House1", 1);
 
