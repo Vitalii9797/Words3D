@@ -157,6 +157,7 @@ Transform:
   - {fileID: 1471936019}
   - {fileID: 1620961010}
   - {fileID: 1695267107}
+  - {fileID: 1110502656}
   - {fileID: 426345032}
   - {fileID: 772926128}
   m_Father: {fileID: 0}
@@ -187,6 +188,7 @@ MonoBehaviour:
   level3: {fileID: 1471936020}
   level4: {fileID: 1620961013}
   level5: {fileID: 1695267109}
+  level6: {fileID: 1110502658}
 --- !u!1 &101387182 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5283840434437703699, guid: 3411dd85b4ed3e644b4fe7c42d379a55, type: 3}
@@ -365,7 +367,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 0a02928d197294f42b0986c701e181a6, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0a02928d197294f42b0986c701e181a6, type: 3}
       propertyPath: m_LocalScale.x
@@ -977,7 +979,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 0a02928d197294f42b0986c701e181a6, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0a02928d197294f42b0986c701e181a6, type: 3}
       propertyPath: m_LocalScale.x
@@ -1411,6 +1413,192 @@ GameObject:
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2196420192684420801, guid: 20d76a14274fb4648a1716b2b9c2403f, type: 3}
   m_PrefabInstance: {fileID: 1139274119}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1110502655
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 68494085}
+    m_Modifications:
+    - target: {fileID: 3188516384626188849, guid: ca2b7288653185e40864576a2b37e2ac, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: cc7ab1ca493e5f74d9dfc855cb4f7a11, type: 2}
+    - target: {fileID: 5016453822677821974, guid: ca2b7288653185e40864576a2b37e2ac, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5016453822677821974, guid: ca2b7288653185e40864576a2b37e2ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5016453822677821974, guid: ca2b7288653185e40864576a2b37e2ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5016453822677821974, guid: ca2b7288653185e40864576a2b37e2ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5016453822677821974, guid: ca2b7288653185e40864576a2b37e2ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.98540795
+      objectReference: {fileID: 0}
+    - target: {fileID: 5016453822677821974, guid: ca2b7288653185e40864576a2b37e2ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.17020944
+      objectReference: {fileID: 0}
+    - target: {fileID: 5016453822677821974, guid: ca2b7288653185e40864576a2b37e2ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5016453822677821974, guid: ca2b7288653185e40864576a2b37e2ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5016453822677821974, guid: ca2b7288653185e40864576a2b37e2ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -19.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5016453822677821974, guid: ca2b7288653185e40864576a2b37e2ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5016453822677821974, guid: ca2b7288653185e40864576a2b37e2ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5016453822677821975, guid: ca2b7288653185e40864576a2b37e2ac, type: 3}
+      propertyPath: m_Name
+      value: Level6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5016453822677821975, guid: ca2b7288653185e40864576a2b37e2ac, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ca2b7288653185e40864576a2b37e2ac, type: 3}
+--- !u!4 &1110502656 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5016453822677821974, guid: ca2b7288653185e40864576a2b37e2ac, type: 3}
+  m_PrefabInstance: {fileID: 1110502655}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1110502657 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5016453822677821975, guid: ca2b7288653185e40864576a2b37e2ac, type: 3}
+  m_PrefabInstance: {fileID: 1110502655}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1110502658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1110502657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 598408f8c3b241340abaac027f73a660, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 1110502659}
+  levelName: Church
+  previousLevel: Motel
+  nextLevel: 
+  Levels:
+  - Church_1
+  - Church_2
+  - Church_3
+  - Church_4
+  - Church_5
+  - Church_6
+  - Church_7
+  - Church_8
+  - Church_9
+  - Church_10
+  elements:
+  - {fileID: 1110502662}
+  - {fileID: 1110502661}
+  - {fileID: 1110502664}
+  - {fileID: 1110502663}
+  - {fileID: 1110502669}
+  - {fileID: 1110502660}
+  - {fileID: 1110502665}
+  - {fileID: 1110502668}
+  - {fileID: 1110502666}
+  - {fileID: 1110502667}
+  levelLocked: 0
+  levelComplete: 0
+--- !u!95 &1110502659
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1110502657}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cfd1f04a8bfa6fd44b7d6df34f8e1270, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &1110502660 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8585478214555618451, guid: ca2b7288653185e40864576a2b37e2ac, type: 3}
+  m_PrefabInstance: {fileID: 1110502655}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1110502661 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6036485280150441499, guid: ca2b7288653185e40864576a2b37e2ac, type: 3}
+  m_PrefabInstance: {fileID: 1110502655}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1110502662 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3563754934373687903, guid: ca2b7288653185e40864576a2b37e2ac, type: 3}
+  m_PrefabInstance: {fileID: 1110502655}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1110502663 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4580607164835803759, guid: ca2b7288653185e40864576a2b37e2ac, type: 3}
+  m_PrefabInstance: {fileID: 1110502655}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1110502664 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1929273401044780101, guid: ca2b7288653185e40864576a2b37e2ac, type: 3}
+  m_PrefabInstance: {fileID: 1110502655}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1110502665 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2500555679657918972, guid: ca2b7288653185e40864576a2b37e2ac, type: 3}
+  m_PrefabInstance: {fileID: 1110502655}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1110502666 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6763256829708084872, guid: ca2b7288653185e40864576a2b37e2ac, type: 3}
+  m_PrefabInstance: {fileID: 1110502655}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1110502667 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2480302756306387685, guid: ca2b7288653185e40864576a2b37e2ac, type: 3}
+  m_PrefabInstance: {fileID: 1110502655}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1110502668 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5566733339712490249, guid: ca2b7288653185e40864576a2b37e2ac, type: 3}
+  m_PrefabInstance: {fileID: 1110502655}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1110502669 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8619236445886394311, guid: ca2b7288653185e40864576a2b37e2ac, type: 3}
+  m_PrefabInstance: {fileID: 1110502655}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1139274119
 PrefabInstance:
@@ -1943,7 +2131,7 @@ MonoBehaviour:
   animator: {fileID: 799620334}
   levelName: Motel
   previousLevel: Cafe
-  nextLevel: 
+  nextLevel: Church
   Levels:
   - Motel_1
   - Motel_2

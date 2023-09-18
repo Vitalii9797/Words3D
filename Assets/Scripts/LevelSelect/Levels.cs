@@ -24,6 +24,7 @@ public class Levels : MonoBehaviour
     [SerializeField] private Level level3;
     [SerializeField] private Level level4;
     [SerializeField] private Level level5;
+    [SerializeField] private Level level6;
 
     private string currentLevel;
     private string currentLevelName;
@@ -36,11 +37,13 @@ public class Levels : MonoBehaviour
         level3.OnLevelChange += ChangeLevel;
         level4.OnLevelChange += ChangeLevel;
         level5.OnLevelChange += ChangeLevel;
+        level6.OnLevelChange += ChangeLevel;
         level1.OnHouseDeactivated += ActivateNextHouse;
         level2.OnHouseDeactivated += ActivateNextHouse;
         level3.OnHouseDeactivated += ActivateNextHouse;
         level4.OnHouseDeactivated += ActivateNextHouse;
         level5.OnHouseDeactivated += ActivateNextHouse;
+        level6.OnHouseDeactivated += ActivateNextHouse;
         leftButton.OnButtonPressed += LeftButton;
         rightButton.OnButtonPressed += RightButton;
         playButton.OnPlayButtonPressed += StartGame;
@@ -124,6 +127,12 @@ public class Levels : MonoBehaviour
                 leftButton.gameObject.SetActive(true);
                 break;
             case "Motel":
+                rightButton.gameObject.SetActive(true);
+                leftButton.buttonPressed = false;
+                rightButton.buttonPressed = false;
+                leftButton.gameObject.SetActive(true);
+                break;
+            case "Church":
                 rightButton.gameObject.SetActive(false);
                 leftButton.buttonPressed = false;
                 rightButton.buttonPressed = false;
@@ -150,6 +159,9 @@ public class Levels : MonoBehaviour
                 case "Cafe":
                     level4.DeactivateToRight();
                 break;
+                case "Motel":
+                    level5.DeactivateToRight();
+                break;
         }
         
     }
@@ -160,6 +172,9 @@ public class Levels : MonoBehaviour
 
             switch (currentLevelName)
             {
+                case "Church":
+                    level6.DeactivateToLeft();
+                    break;
                 case "Motel":
                     level5.DeactivateToLeft();
                     break;
@@ -194,6 +209,9 @@ public class Levels : MonoBehaviour
                 break;
             case "Motel":
                 level5.gameObject.SetActive(true);
+                break;
+            case "Church":
+                level6.gameObject.SetActive(true);
                 break;
         }
     }
@@ -237,11 +255,13 @@ public class Levels : MonoBehaviour
         level3.OnLevelChange -= ChangeLevel;
         level4.OnLevelChange -= ChangeLevel;
         level5.OnLevelChange -= ChangeLevel;
+        level6.OnLevelChange -= ChangeLevel;
         level1.OnHouseDeactivated -= ActivateNextHouse;
         level2.OnHouseDeactivated -= ActivateNextHouse;
         level3.OnHouseDeactivated -= ActivateNextHouse;
         level4.OnHouseDeactivated -= ActivateNextHouse;
         level5.OnHouseDeactivated -= ActivateNextHouse;
+        level6.OnHouseDeactivated -= ActivateNextHouse;
         leftButton.OnButtonPressed -= LeftButton;
         rightButton.OnButtonPressed -= RightButton;
         playButton.OnPlayButtonPressed -= StartGame;
